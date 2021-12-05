@@ -1,0 +1,48 @@
+.feed{
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.feed .feed-card{
+    box-shadow: 1px 2px 10px 1px rgba(183, 186, 183, 0.705);
+    border-radius: 20px;
+}
+
+.feed .feed-card .header{
+    padding: 6px;
+}
+.feed-col .profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.feed-col .post-img{
+    width: 100%;
+}
+
+.feed-card{
+    margin: 20px 10px;
+}
+.feed-card .bottom{
+  padding: 12px 10px;
+}
+
+.feed-card .bottom .icons{
+ font-size:20px;
+ color: grey;
+ text-align: center;
+ padding:10px 0;
+}
+
+.feed-card .bottom .icons .right{
+    font-size:15px;
+    text-align:right;
+    cursor:pointer
+   }
+
+   .feed-card .bottom .icons .liked{
+    color: rgb(221, 58, 58);
+   }

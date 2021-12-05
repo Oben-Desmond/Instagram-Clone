@@ -1,0 +1,103 @@
+.main-column .main-container {
+  border-radius: 70px 0 0 0;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  padding: 30px 30px;
+  margin-top: 10px;
+}
+
+.main-column .search-bar {
+  background-color: white;
+  padding: 3px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 200px 10px rgba(0, 0, 0, 0.275);
+}
+
+.main-column .search-bar input {
+  border: none;
+  padding: 5px;
+  margin-left: 10px;
+  outline: none;
+}
+.main-column .stories {
+   /* overflow: scroll; */
+   /* min-width: 1000px; */
+   /* max-width: 100; */
+ }
+ 
+
+.right-options {
+  text-align: right;
+}
+.right-options * {
+  margin-right: 20px;
+}
+.right-options .btn {
+  background-image: linear-gradient(to left, #ffca99, rgb(255, 55, 108));
+  border: none;
+  border-radius: 20px;
+}
+
+.right-options *:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.stories {
+  padding: 20px;
+}
+.stories>*{
+   display: inline;
+}
+
+.avatar-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 3px;
+  background-image: linear-gradient(to left, #ffca99, rgb(255, 55, 108));
+}
+
+
+.story-avatar .avatar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  /* margin: ; */
+}
+.story-avatar .avatar-circle .img-container{
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   border-radius: 50%;
+   padding: 5px;
+}
+
+.story-avatar.personal{
+   position: relative;
+}
+.avatar-circle.personal{
+   width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: transparent;
+}
+.story-avatar.personal .avatar-circle .img-container{
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   border-radius: 50%;
+   /* padding: 5px; */
+}
+.story-avatar.personal button{
+   border-radius: 50%;
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   right: 10px;
+   bottom: 3px;
+   opacity: 0.9;
+   transform: scale(0.7);
+   cursor: pointer;
+}
